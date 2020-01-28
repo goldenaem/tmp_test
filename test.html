@@ -132,7 +132,6 @@
 
 	/**
 	 * Resets the form back to the default state.
-	 * ==========================================
 	 */
 	function formReset() {
 		value = 0;
@@ -153,7 +152,6 @@
 
 	/**
 	 * Sets up the click handlers on the form. Next/reset.
-	 * ===================================================
 	 */
 	function setupClickHandlers() {
 
@@ -175,7 +173,6 @@
 	/**
 	 * Shows the next form.
 	 * @param - Node - The current form.
-	 * ======================================
 	 */
 	function showNextForm($currentForm) {
 		var currentFormStep = parseInt($currentForm.attr('data-step')) || false;
@@ -235,7 +232,6 @@
 
 	/**
 	 * Sets up and handles the float labels on the inputs.
-	 =====================================================
 	 */
 	function setupFloatLabels() {
 		// Check the inputs to see if we should keep the label floating or not
@@ -269,7 +265,6 @@
 
 	/**
 	 * Gets the party started.
-	 * =======================
 	 */
 	function init() {
 		formReset();
